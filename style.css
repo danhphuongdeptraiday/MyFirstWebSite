@@ -1,0 +1,132 @@
+.header{
+    background-color: rgb(129, 78, 36);
+    top: 0;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.logo{
+    margin-top: 10px;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li a {
+    color: antiquewhite;
+    display: block;
+    padding: 35px 20px;
+    text-decoration: none;
+}
+
+.main-menu>li>a{
+    position: relative;
+}
+
+.main-menu>li>a::before{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+}
+.main-menu>li:hover>a::before{
+    display: block;
+}
+
+.poster-img{
+    margin-top: 10px;
+    margin: 30 15 30 15 ; 
+    width: 100%;
+}
+.product-div{
+    margin: 30px;
+    width: 350px;
+    border-bottom: 3px solid red;
+    /* border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red; */
+}
+.product-img{
+    width: 350px;
+    height: 250px;
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* .nav-bar{
+    display: flex;
+    /* justify-content:flex-start; */
+    /* align-items: center;
+    flex-direction: row; */
+    /* position: fixed;  */
+    /* width: 100%;  */
+    /* background-color: rgb(207, 75, 75); */
+    /* top: 0px; */ */
+
+/* } */
+
+h2 {
+    text-align: center;
+}
+.footer-item{
+    width: 25%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2.5%;
+}.product-detail-img{
+    width: 100%;
+    height: 80%;
+}
+.text-center{
+    text-align: center;
+}
+.product-detail-container{
+    display: flex;
+    margin: 60 0;
+    padding: 0 10%;
+ }
+.product-display{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.detail-display{
+    width: 30%;
+    padding: 0 5%;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background: red;
+    border-radius: 20%;
+}
+
+.menu-a{
+    text-decoration: none;
+    color: indianred;
+}
+.distance{
+    margin-top: 85px;
+}
+.flags{
+    width: 32px;
+    height: auto;
+    float: left;
+    margin: 0 10px 0 0;
+}
